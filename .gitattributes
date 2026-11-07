@@ -1,0 +1,5 @@
+# Preserve archived data and server snapshots byte for byte across platforms.
+*.jsonl -text
+*.json -text
+*.log -text
+results_full/server_snapshot/** -text

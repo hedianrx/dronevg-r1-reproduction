@@ -1,0 +1,40 @@
+[INFO] attn=auto → flash_attention_2
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.19it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.13it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.10it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.13it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.33it/s]
+[INFO] 权重=base prompt=cot shots=0
+[INFO] 论文参考值 43.78% | 加载耗时 4.7s
+  [25/800] 1.5min 均3.69s/条 剩余约48min
+  [50/800] 3.5min 均4.15s/条 剩余约52min
+  [75/800] 5.0min 均4.03s/条 剩余约49min
+  [100/800] 6.3min 均3.80s/条 剩余约44min
+  [125/800] 7.9min 均3.79s/条 剩余约43min
+  [150/800] 9.5min 均3.81s/条 剩余约41min
+  [175/800] 11.1min 均3.80s/条 剩余约40min
+  [200/800] 12.7min 均3.81s/条 剩余约38min
+  [225/800] 14.2min 均3.80s/条 剩余约36min
+  [250/800] 15.9min 均3.81s/条 剩余约35min
+  [275/800] 17.6min 均3.85s/条 剩余约34min
+  [300/800] 19.3min 均3.86s/条 剩余约32min
+  [325/800] 21.0min 均3.87s/条 剩余约31min
+  [350/800] 22.6min 均3.87s/条 剩余约29min
+  [375/800] 23.6min 均3.78s/条 剩余约27min
+  [400/800] 24.6min 均3.69s/条 剩余约25min
+  [425/800] 25.8min 均3.64s/条 剩余约23min
+  [450/800] 27.2min 均3.63s/条 剩余约21min
+  [475/800] 28.6min 均3.62s/条 剩余约20min
+  [500/800] 29.8min 均3.58s/条 剩余约18min
+  [525/800] 31.4min 均3.59s/条 剩余约16min
+  [550/800] 32.8min 均3.58s/条 剩余约15min
+  [575/800] 34.1min 均3.55s/条 剩余约13min
+  [600/800] 35.4min 均3.54s/条 剩余约12min
+  [625/800] 36.6min 均3.51s/条 剩余约10min
+  [650/800] 38.1min 均3.52s/条 剩余约9min
+  [675/800] 39.6min 均3.52s/条 剩余约7min
+  [700/800] 40.9min 均3.51s/条 剩余约6min
+  [725/800] 42.2min 均3.50s/条 剩余约4min
+  [750/800] 43.3min 均3.47s/条 剩余约3min
+  [775/800] 44.6min 均3.45s/条 剩余约1min
+  [800/800] 45.9min 均3.44s/条 剩余约0min
+
+[完成] g1: 800 条 | 缺图 0 | 无answer标签 262 | 45.9min
+[下一步] python compute_metric_fixed.py --image-folder /root/autodl-tmp/DVGBench/images --answers-file /root/autodl-tmp/results/dvgb_hard_full/ans_g1_tail.jsonl

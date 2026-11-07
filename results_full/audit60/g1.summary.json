@@ -1,0 +1,25 @@
+{
+  "setting": "g1",
+  "n": 60,
+  "acc_uniform": 0.3833,
+  "acc_weighted": 0.3833,
+  "acc_uniform_official": 0.3833,
+  "acc_weighted_official": 0.3833,
+  "paper": 43.78,
+  "per_class": {
+    "Security": 60.0,
+    "Traffic": 30.0,
+    "Social Activity": 30.0,
+    "Disaster": 30.0,
+    "Productive Activity": 0.0,
+    "Sport": 80.0
+  },
+  "n_per_class": {
+    "Security": 10,
+    "Traffic": 10,
+    "Social Activity": 10,
+    "Disaster": 10,
+    "Productive Activity": 10,
+    "Sport": 10
+  }
+}

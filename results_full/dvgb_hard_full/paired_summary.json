@@ -1,0 +1,310 @@
+{
+  "strict_definition": "Both GT IoU values > 0.5, per paper Table 3 text.",
+  "consistency_note": "Candidate diagnostic only: predicted-box IoU >= 0.5; paper does not specify the threshold or missing-box rule.",
+  "groups": {
+    "g1": {
+      "group": "g1",
+      "n": 873,
+      "macro": {
+        "implicit_correct": 0.423213,
+        "explicit_correct": 0.576931,
+        "both_correct": 0.341899,
+        "prediction_iou_ge_0_5": 0.457357
+      },
+      "weighted": {
+        "implicit_correct": 0.444444,
+        "explicit_correct": 0.579611,
+        "both_correct": 0.364261,
+        "prediction_iou_ge_0_5": 0.4811
+      },
+      "per_class": {
+        "Security": {
+          "n": 42,
+          "implicit_correct": 16,
+          "explicit_correct": 26,
+          "both_correct": 12,
+          "prediction_iou_ge_0_5": 16,
+          "implicit_no_box": 17,
+          "explicit_no_box": 3
+        },
+        "Traffic": {
+          "n": 288,
+          "implicit_correct": 110,
+          "explicit_correct": 146,
+          "both_correct": 87,
+          "prediction_iou_ge_0_5": 125,
+          "implicit_no_box": 63,
+          "explicit_no_box": 34
+        },
+        "Social Activity": {
+          "n": 91,
+          "implicit_correct": 31,
+          "explicit_correct": 47,
+          "both_correct": 24,
+          "prediction_iou_ge_0_5": 33,
+          "implicit_no_box": 21,
+          "explicit_no_box": 8
+        },
+        "Disaster": {
+          "n": 53,
+          "implicit_correct": 24,
+          "explicit_correct": 29,
+          "both_correct": 19,
+          "prediction_iou_ge_0_5": 27,
+          "implicit_no_box": 5,
+          "explicit_no_box": 1
+        },
+        "Productive Activity": {
+          "n": 242,
+          "implicit_correct": 150,
+          "explicit_correct": 166,
+          "both_correct": 125,
+          "prediction_iou_ge_0_5": 151,
+          "implicit_no_box": 16,
+          "explicit_no_box": 11
+        },
+        "Sport": {
+          "n": 157,
+          "implicit_correct": 57,
+          "explicit_correct": 92,
+          "both_correct": 51,
+          "prediction_iou_ge_0_5": 68,
+          "implicit_no_box": 23,
+          "explicit_no_box": 12
+        }
+      },
+      "no_box": {
+        "implicit": 145,
+        "explicit": 69
+      }
+    },
+    "g2": {
+      "group": "g2",
+      "n": 873,
+      "macro": {
+        "implicit_correct": 0.471365,
+        "explicit_correct": 0.594014,
+        "both_correct": 0.405637,
+        "prediction_iou_ge_0_5": 0.548902
+      },
+      "weighted": {
+        "implicit_correct": 0.484536,
+        "explicit_correct": 0.585338,
+        "both_correct": 0.412371,
+        "prediction_iou_ge_0_5": 0.56701
+      },
+      "per_class": {
+        "Security": {
+          "n": 42,
+          "implicit_correct": 22,
+          "explicit_correct": 28,
+          "both_correct": 19,
+          "prediction_iou_ge_0_5": 23,
+          "implicit_no_box": 2,
+          "explicit_no_box": 1
+        },
+        "Traffic": {
+          "n": 288,
+          "implicit_correct": 122,
+          "explicit_correct": 145,
+          "both_correct": 98,
+          "prediction_iou_ge_0_5": 152,
+          "implicit_no_box": 23,
+          "explicit_no_box": 8
+        },
+        "Social Activity": {
+          "n": 91,
+          "implicit_correct": 35,
+          "explicit_correct": 46,
+          "both_correct": 31,
+          "prediction_iou_ge_0_5": 48,
+          "implicit_no_box": 3,
+          "explicit_no_box": 2
+        },
+        "Disaster": {
+          "n": 53,
+          "implicit_correct": 24,
+          "explicit_correct": 32,
+          "both_correct": 20,
+          "prediction_iou_ge_0_5": 26,
+          "implicit_no_box": 1,
+          "explicit_no_box": 1
+        },
+        "Productive Activity": {
+          "n": 242,
+          "implicit_correct": 160,
+          "explicit_correct": 166,
+          "both_correct": 134,
+          "prediction_iou_ge_0_5": 164,
+          "implicit_no_box": 0,
+          "explicit_no_box": 1
+        },
+        "Sport": {
+          "n": 157,
+          "implicit_correct": 60,
+          "explicit_correct": 94,
+          "both_correct": 58,
+          "prediction_iou_ge_0_5": 82,
+          "implicit_no_box": 8,
+          "explicit_no_box": 2
+        }
+      },
+      "no_box": {
+        "implicit": 37,
+        "explicit": 15
+      }
+    },
+    "g5": {
+      "group": "g5",
+      "n": 873,
+      "macro": {
+        "implicit_correct": 0.492311,
+        "explicit_correct": 0.588235,
+        "both_correct": 0.41507,
+        "prediction_iou_ge_0_5": 0.574013
+      },
+      "weighted": {
+        "implicit_correct": 0.500573,
+        "explicit_correct": 0.585338,
+        "both_correct": 0.414662,
+        "prediction_iou_ge_0_5": 0.565865
+      },
+      "per_class": {
+        "Security": {
+          "n": 42,
+          "implicit_correct": 22,
+          "explicit_correct": 27,
+          "both_correct": 20,
+          "prediction_iou_ge_0_5": 27,
+          "implicit_no_box": 1,
+          "explicit_no_box": 0
+        },
+        "Traffic": {
+          "n": 288,
+          "implicit_correct": 126,
+          "explicit_correct": 149,
+          "both_correct": 101,
+          "prediction_iou_ge_0_5": 153,
+          "implicit_no_box": 28,
+          "explicit_no_box": 12
+        },
+        "Social Activity": {
+          "n": 91,
+          "implicit_correct": 40,
+          "explicit_correct": 47,
+          "both_correct": 30,
+          "prediction_iou_ge_0_5": 42,
+          "implicit_no_box": 9,
+          "explicit_no_box": 6
+        },
+        "Disaster": {
+          "n": 53,
+          "implicit_correct": 26,
+          "explicit_correct": 31,
+          "both_correct": 23,
+          "prediction_iou_ge_0_5": 34,
+          "implicit_no_box": 1,
+          "explicit_no_box": 0
+        },
+        "Productive Activity": {
+          "n": 242,
+          "implicit_correct": 160,
+          "explicit_correct": 165,
+          "both_correct": 133,
+          "prediction_iou_ge_0_5": 156,
+          "implicit_no_box": 4,
+          "explicit_no_box": 3
+        },
+        "Sport": {
+          "n": 157,
+          "implicit_correct": 63,
+          "explicit_correct": 92,
+          "both_correct": 55,
+          "prediction_iou_ge_0_5": 82,
+          "implicit_no_box": 12,
+          "explicit_no_box": 2
+        }
+      },
+      "no_box": {
+        "implicit": 55,
+        "explicit": 23
+      }
+    },
+    "g6": {
+      "group": "g6",
+      "n": 873,
+      "macro": {
+        "implicit_correct": 0.506271,
+        "explicit_correct": 0.600294,
+        "both_correct": 0.430698,
+        "prediction_iou_ge_0_5": 0.600041
+      },
+      "weighted": {
+        "implicit_correct": 0.5189,
+        "explicit_correct": 0.597938,
+        "both_correct": 0.434135,
+        "prediction_iou_ge_0_5": 0.596793
+      },
+      "per_class": {
+        "Security": {
+          "n": 42,
+          "implicit_correct": 26,
+          "explicit_correct": 28,
+          "both_correct": 23,
+          "prediction_iou_ge_0_5": 30,
+          "implicit_no_box": 0,
+          "explicit_no_box": 0
+        },
+        "Traffic": {
+          "n": 288,
+          "implicit_correct": 129,
+          "explicit_correct": 157,
+          "both_correct": 105,
+          "prediction_iou_ge_0_5": 163,
+          "implicit_no_box": 0,
+          "explicit_no_box": 0
+        },
+        "Social Activity": {
+          "n": 91,
+          "implicit_correct": 39,
+          "explicit_correct": 47,
+          "both_correct": 31,
+          "prediction_iou_ge_0_5": 46,
+          "implicit_no_box": 0,
+          "explicit_no_box": 0
+        },
+        "Disaster": {
+          "n": 53,
+          "implicit_correct": 22,
+          "explicit_correct": 32,
+          "both_correct": 20,
+          "prediction_iou_ge_0_5": 31,
+          "implicit_no_box": 0,
+          "explicit_no_box": 0
+        },
+        "Productive Activity": {
+          "n": 242,
+          "implicit_correct": 171,
+          "explicit_correct": 167,
+          "both_correct": 143,
+          "prediction_iou_ge_0_5": 165,
+          "implicit_no_box": 0,
+          "explicit_no_box": 0
+        },
+        "Sport": {
+          "n": 157,
+          "implicit_correct": 66,
+          "explicit_correct": 91,
+          "both_correct": 57,
+          "prediction_iou_ge_0_5": 86,
+          "implicit_no_box": 0,
+          "explicit_no_box": 0
+        }
+      },
+      "no_box": {
+        "implicit": 0,
+        "explicit": 0
+      }
+    }
+  }
+}

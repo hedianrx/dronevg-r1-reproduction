@@ -1,0 +1,7 @@
+[INFO] attn=auto → flash_attention_2
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.10it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.15it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.06it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.07it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.27it/s]
+[INFO] 权重=base prompt=cot shots=0
+[INFO] 论文参考值 43.78% | 加载耗时 4.9s
+  [25/873] 1.5min 均3.54s/条 剩余约50min
+  [50/873] 2.9min 均3.52s/条 剩余约48min

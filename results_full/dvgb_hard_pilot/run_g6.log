@@ -1,0 +1,9 @@
+[INFO] attn=auto → flash_attention_2
+[INFO] adapter 已挂载（未合并）: /root/autodl-tmp/DroneVG-R1-7B
+[INFO] 权重=droner1 prompt=i2e shots=0
+[INFO] 论文参考值 52.05% | 加载耗时 16.0s
+  [25/50] 1.2min 均2.77s/条 剩余约1min
+  [50/50] 2.3min 均2.73s/条 剩余约0min
+
+[完成] g6: 50 条 | 缺图 0 | 无answer标签 1 | 2.3min
+[下一步] python compute_metric_fixed.py --image-folder /root/autodl-tmp/DVGBench/images --answers-file /root/autodl-tmp/results/dvgb_hard_pilot/ans_g6_explicit_50.jsonl

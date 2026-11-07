@@ -1,0 +1,178 @@
+{
+  "implicit": {
+    "g1": {
+      "label": "Qwen2.5-VL-7B + CoT, 0-shot",
+      "paper": 43.78,
+      "macro": 0.423213,
+      "weighted": 0.444444,
+      "n": 873,
+      "n_nobox": 145,
+      "nobox_rate": 0.166094,
+      "per_class": {
+        "Security": 38.1,
+        "Traffic": 38.19,
+        "Social Activity": 34.07,
+        "Disaster": 45.28,
+        "Productive Activity": 61.98,
+        "Sport": 36.31
+      }
+    },
+    "g2": {
+      "label": "Qwen2.5-VL-7B + I2E-CoT, 0-shot",
+      "paper": 47.93,
+      "macro": 0.471365,
+      "weighted": 0.484536,
+      "n": 873,
+      "n_nobox": 37,
+      "nobox_rate": 0.042383,
+      "per_class": {
+        "Security": 52.38,
+        "Traffic": 42.36,
+        "Social Activity": 38.46,
+        "Disaster": 45.28,
+        "Productive Activity": 66.12,
+        "Sport": 38.22
+      }
+    },
+    "g3": {
+      "label": "Qwen2.5-VL-7B + CoT, 2-shot",
+      "paper": 34.82,
+      "macro": 0.492852,
+      "weighted": 0.504598,
+      "n": 870,
+      "n_nobox": 26,
+      "nobox_rate": 0.029885,
+      "per_class": {
+        "Security": 47.62,
+        "Traffic": 45.64,
+        "Social Activity": 45.05,
+        "Disaster": 50.94,
+        "Productive Activity": 63.22,
+        "Sport": 43.23
+      }
+    },
+    "g4": {
+      "label": "Qwen2.5-VL-7B + CoT, 5-shot",
+      "paper": 31.8,
+      "macro": 0.502369,
+      "weighted": 0.495963,
+      "n": 867,
+      "n_nobox": 36,
+      "nobox_rate": 0.041522,
+      "per_class": {
+        "Security": 57.14,
+        "Traffic": 42.31,
+        "Social Activity": 46.67,
+        "Disaster": 50.94,
+        "Productive Activity": 63.07,
+        "Sport": 41.29
+      }
+    },
+    "g5": {
+      "label": "DroneVG-R1 + CoT, 0-shot",
+      "paper": 51.24,
+      "macro": 0.492311,
+      "weighted": 0.500573,
+      "n": 873,
+      "n_nobox": 55,
+      "nobox_rate": 0.063001,
+      "per_class": {
+        "Security": 52.38,
+        "Traffic": 43.75,
+        "Social Activity": 43.96,
+        "Disaster": 49.06,
+        "Productive Activity": 66.12,
+        "Sport": 40.13
+      }
+    },
+    "g6": {
+      "label": "DroneVG-R1 + I2E-CoT, 0-shot",
+      "paper": 52.05,
+      "macro": 0.506271,
+      "weighted": 0.5189,
+      "n": 873,
+      "n_nobox": 0,
+      "nobox_rate": 0.0,
+      "per_class": {
+        "Security": 61.9,
+        "Traffic": 44.79,
+        "Social Activity": 42.86,
+        "Disaster": 41.51,
+        "Productive Activity": 70.66,
+        "Sport": 42.04
+      }
+    }
+  },
+  "hard": {
+    "g1": {
+      "n": 873,
+      "imp_nobox": 145,
+      "exp_nobox": 69,
+      "both_macro": 0.341899,
+      "both_count": 318,
+      "cons_strict": 0.457357,
+      "cons_loose": 0.605649,
+      "n_excluded": 193,
+      "excl_rate": 0.221077
+    },
+    "g2": {
+      "n": 873,
+      "imp_nobox": 37,
+      "exp_nobox": 15,
+      "both_macro": 0.405637,
+      "both_count": 360,
+      "cons_strict": 0.548902,
+      "cons_loose": 0.579731,
+      "n_excluded": 48,
+      "excl_rate": 0.054983
+    },
+    "g5": {
+      "n": 873,
+      "imp_nobox": 55,
+      "exp_nobox": 23,
+      "both_macro": 0.41507,
+      "both_count": 362,
+      "cons_strict": 0.574013,
+      "cons_loose": 0.619455,
+      "n_excluded": 77,
+      "excl_rate": 0.088202
+    },
+    "g6": {
+      "n": 873,
+      "imp_nobox": 0,
+      "exp_nobox": 0,
+      "both_macro": 0.430698,
+      "both_count": 379,
+      "cons_strict": 0.600041,
+      "cons_loose": 0.600041,
+      "n_excluded": 0,
+      "excl_rate": 0.0
+    }
+  },
+  "decomp": {
+    "g1->g2": {
+      "name": "提示词在基座上",
+      "n": 873,
+      "gain": 35,
+      "fixed": 38,
+      "improved": 41,
+      "lost": 44
+    },
+    "g1->g5": {
+      "name": "加载公开 adapter",
+      "n": 873,
+      "gain": 49,
+      "fixed": 43,
+      "improved": 54,
+      "lost": 48
+    },
+    "g5->g6": {
+      "name": "提示词在 adapter 模型上",
+      "n": 873,
+      "gain": 16,
+      "fixed": 16,
+      "improved": 43,
+      "lost": 43
+    }
+  }
+}

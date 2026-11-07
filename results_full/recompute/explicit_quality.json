@@ -1,0 +1,47 @@
+{
+  "human": {
+    "n": 873,
+    "len_mean": 35.1,
+    "len_median": 33,
+    "dir_rate": 81.7,
+    "phrase_rate": 27.7
+  },
+  "g2": {
+    "n": 873,
+    "len_mean": 150.4,
+    "len_median": 139,
+    "dir_rate": 91.5,
+    "phrase_rate": 24.2,
+    "jac_mean": 0.2534,
+    "jac_median": 0.2273,
+    "jac_ge_09": 0.46,
+    "jac_ge_05": 6.64,
+    "jac_zero": 0.7,
+    "n_paired": 873
+  },
+  "g6": {
+    "n": 873,
+    "len_mean": 31.4,
+    "len_median": 26,
+    "dir_rate": 33.8,
+    "phrase_rate": 2.7,
+    "jac_mean": 0.2394,
+    "jac_median": 0.2,
+    "jac_ge_09": 2.86,
+    "jac_ge_05": 12.6,
+    "jac_zero": 20.5,
+    "n_paired": 873
+  },
+  "cross_dir_only": {
+    "g2": {
+      "n": 713,
+      "jac_mean": 0.2741,
+      "jac_zero": 0.4
+    },
+    "g6": {
+      "n": 713,
+      "jac_mean": 0.23,
+      "jac_zero": 20.1
+    }
+  }
+}

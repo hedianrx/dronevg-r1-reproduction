@@ -1,0 +1,43 @@
+[INFO] attn=auto → flash_attention_2
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.21it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.25it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.24it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.24it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.69it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.45it/s]
+[INFO] adapter 已挂载（未合并）: /root/autodl-tmp/DroneVG-R1-7B
+[INFO] 权重=droner1 prompt=cot shots=0
+[INFO] 论文参考值 51.24% | 加载耗时 14.4s
+  [25/873] 1.6min 均3.83s/条 剩余约54min
+  [50/873] 2.7min 均3.24s/条 剩余约44min
+  [75/873] 4.2min 均3.36s/条 剩余约45min
+  [100/873] 5.3min 均3.17s/条 剩余约41min
+  [125/873] 6.7min 均3.20s/条 剩余约40min
+  [150/873] 8.0min 均3.18s/条 剩余约38min
+  [175/873] 9.0min 均3.10s/条 剩余约36min
+  [200/873] 10.3min 均3.10s/条 剩余约35min
+  [225/873] 11.4min 均3.04s/条 剩余约33min
+  [250/873] 12.5min 均2.99s/条 剩余约31min
+  [275/873] 13.6min 均2.97s/条 剩余约30min
+  [300/873] 15.2min 均3.03s/条 剩余约29min
+  [325/873] 16.3min 均3.00s/条 剩余约27min
+  [350/873] 17.5min 均2.99s/条 剩余约26min
+  [375/873] 18.5min 均2.96s/条 剩余约25min
+  [400/873] 19.5min 均2.93s/条 剩余约23min
+  [425/873] 20.4min 均2.89s/条 剩余约22min
+  [450/873] 21.4min 均2.85s/条 剩余约20min
+  [475/873] 22.4min 均2.83s/条 剩余约19min
+  [500/873] 23.7min 均2.84s/条 剩余约18min
+  [525/873] 25.2min 均2.88s/条 剩余约17min
+  [550/873] 27.1min 均2.95s/条 剩余约16min
+  [575/873] 28.1min 均2.94s/条 剩余约15min
+  [600/873] 29.5min 均2.95s/条 剩余约13min
+  [625/873] 30.4min 均2.92s/条 剩余约12min
+  [650/873] 31.4min 均2.90s/条 剩余约11min
+  [675/873] 32.4min 均2.88s/条 剩余约10min
+  [700/873] 33.4min 均2.86s/条 剩余约8min
+  [725/873] 34.7min 均2.87s/条 剩余约7min
+  [750/873] 35.7min 均2.85s/条 剩余约6min
+  [775/873] 36.6min 均2.83s/条 剩余约5min
+  [800/873] 37.5min 均2.81s/条 剩余约3min
+  [825/873] 38.4min 均2.79s/条 剩余约2min
+  [850/873] 39.4min 均2.78s/条 剩余约1min
+
+[完成] g5: 873 条 | 缺图 0 | 无answer标签 275 | 40.3min
+[下一步] python compute_metric_fixed.py --image-folder /root/autodl-tmp/DVGBench/images --answers-file /root/autodl-tmp/results/ans_g5.jsonl

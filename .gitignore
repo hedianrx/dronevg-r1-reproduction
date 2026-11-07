@@ -1,0 +1,31 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+.ssh/
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+
+# Model weights / downloaded archives (experiment JSONL and logs are tracked)
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.whl
+
+# Local third-party reading copies; see SOURCES.md
+/audit_reference/paper.bin
+/audit_reference/paper.txt
+/audit_reference/arxiv.bin
+/results_full/audit200/paper_table3.png

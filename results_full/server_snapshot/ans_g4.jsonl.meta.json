@@ -1,0 +1,63 @@
+{
+  "setting": "g4",
+  "shots": 5,
+  "seed": 42,
+  "note": "示例由测试集随机抽样，已从评测集排除",
+  "examples": [
+    {
+      "image_id": "Test_Cycling_053.png",
+      "dataset": "era",
+      "question": "A rider who is temporarily behind",
+      "bbox": [
+        302.9,
+        192.3,
+        335.1,
+        251.1
+      ]
+    },
+    {
+      "image_id": "9999936_00000_d_0000048.jpg",
+      "dataset": "visdrone",
+      "question": "The white electric bike that is turning right",
+      "bbox": [
+        1013.3,
+        565.6,
+        1046.0,
+        627.7
+      ]
+    },
+    {
+      "image_id": "0000067_01050_d_0000002.jpg",
+      "dataset": "visdrone",
+      "question": "Shop selling clothes",
+      "bbox": [
+        73.6,
+        25.7,
+        364.1,
+        281.4
+      ]
+    },
+    {
+      "image_id": "Test_Party_008.png",
+      "dataset": "era",
+      "question": "Children away from the crowd",
+      "bbox": [
+        397.5,
+        356.4,
+        450.5,
+        460.3
+      ]
+    },
+    {
+      "image_id": "9999968_00000_d_0000025.jpg",
+      "dataset": "visdrone",
+      "question": "A pedestrian crossing the zebra crossing",
+      "bbox": [
+        565.1,
+        772.2,
+        587.3,
+        815.1
+      ]
+    }
+  ]
+}

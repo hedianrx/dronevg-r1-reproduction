@@ -1,0 +1,42 @@
+[INFO] attn=auto → flash_attention_2
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.16it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.20it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.21it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.21it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.64it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.41it/s]
+[INFO] 权重=base prompt=i2e shots=0
+[INFO] 论文参考值 47.93% | 加载耗时 4.5s
+  [25/873] 1.5min 均3.64s/条 剩余约51min
+  [50/873] 3.0min 均3.62s/条 剩余约50min
+  [75/873] 4.5min 均3.59s/条 剩余约48min
+  [100/873] 5.9min 均3.51s/条 剩余约45min
+  [125/873] 7.5min 均3.60s/条 剩余约45min
+  [150/873] 9.1min 均3.62s/条 剩余约44min
+  [175/873] 10.6min 均3.64s/条 剩余约42min
+  [200/873] 12.1min 均3.62s/条 剩余约41min
+  [225/873] 13.6min 均3.63s/条 剩余约39min
+  [250/873] 15.1min 均3.62s/条 剩余约38min
+  [275/873] 16.6min 均3.61s/条 剩余约36min
+  [300/873] 18.1min 均3.61s/条 剩余约34min
+  [325/873] 19.5min 均3.61s/条 剩余约33min
+  [350/873] 21.1min 均3.62s/条 剩余约32min
+  [375/873] 22.7min 均3.63s/条 剩余约30min
+  [400/873] 24.2min 均3.64s/条 剩余约29min
+  [425/873] 25.8min 均3.65s/条 剩余约27min
+  [450/873] 27.3min 均3.65s/条 剩余约26min
+  [475/873] 28.8min 均3.63s/条 剩余约24min
+  [500/873] 30.2min 均3.62s/条 剩余约23min
+  [525/873] 31.7min 均3.62s/条 剩余约21min
+  [550/873] 33.1min 均3.61s/条 剩余约19min
+  [575/873] 34.6min 均3.61s/条 剩余约18min
+  [600/873] 36.0min 均3.60s/条 剩余约16min
+  [625/873] 37.2min 均3.57s/条 剩余约15min
+  [650/873] 38.4min 均3.54s/条 剩余约13min
+  [675/873] 39.7min 均3.53s/条 剩余约12min
+  [700/873] 41.0min 均3.52s/条 剩余约10min
+  [725/873] 42.3min 均3.50s/条 剩余约9min
+  [750/873] 43.9min 均3.51s/条 剩余约7min
+  [775/873] 45.2min 均3.50s/条 剩余约6min
+  [800/873] 46.6min 均3.50s/条 剩余约4min
+  [825/873] 48.1min 均3.50s/条 剩余约3min
+  [850/873] 49.5min 均3.49s/条 剩余约1min
+
+[完成] g2: 873 条 | 缺图 0 | 无answer标签 24 | 50.8min
+[下一步] python compute_metric_fixed.py --image-folder /root/autodl-tmp/DVGBench/images --answers-file /root/autodl-tmp/results/ans_g2.jsonl

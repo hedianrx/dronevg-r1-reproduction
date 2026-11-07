@@ -1,0 +1,25 @@
+{
+  "setting": "g1_swift_template",
+  "n": 200,
+  "acc_uniform": 0.4069,
+  "acc_weighted": 0.455,
+  "acc_uniform_official": 0.4069,
+  "acc_weighted_official": 0.455,
+  "paper": null,
+  "per_class": {
+    "Security": 35.71,
+    "Traffic": 40.0,
+    "Social Activity": 45.45,
+    "Disaster": 20.0,
+    "Productive Activity": 62.96,
+    "Sport": 40.0
+  },
+  "n_per_class": {
+    "Security": 14,
+    "Traffic": 65,
+    "Social Activity": 22,
+    "Disaster": 10,
+    "Productive Activity": 54,
+    "Sport": 35
+  }
+}

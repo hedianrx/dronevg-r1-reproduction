@@ -1,0 +1,44 @@
+[INFO] 2-shot 示例已抽取，排除后评测集 870 条（原 873）
+[INFO] 示例记录: /root/autodl-tmp/results/ans_g3.jsonl.meta.json
+[INFO] attn=auto → flash_attention_2
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.14it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.18it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.18it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.19it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.61it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.39it/s]
+[INFO] 权重=base prompt=cot shots=2
+[INFO] 论文参考值 34.82% | 加载耗时 4.5s
+  [25/870] 1.3min 均3.21s/条 剩余约45min
+  [50/870] 2.7min 均3.25s/条 剩余约44min
+  [75/870] 4.1min 均3.30s/条 剩余约44min
+  [100/870] 5.7min 均3.40s/条 剩余约44min
+  [125/870] 7.2min 均3.46s/条 剩余约43min
+  [150/870] 8.5min 均3.42s/条 剩余约41min
+  [175/870] 10.0min 均3.42s/条 剩余约40min
+  [200/870] 11.4min 均3.43s/条 剩余约38min
+  [225/870] 12.8min 均3.42s/条 剩余约37min
+  [250/870] 14.2min 均3.41s/条 剩余约35min
+  [275/870] 15.8min 均3.44s/条 剩余约34min
+  [300/870] 17.3min 均3.45s/条 剩余约33min
+  [325/870] 18.7min 均3.46s/条 剩余约31min
+  [350/870] 20.4min 均3.49s/条 剩余约30min
+  [375/870] 21.7min 均3.47s/条 剩余约29min
+  [400/870] 23.0min 均3.45s/条 剩余约27min
+  [425/870] 24.3min 均3.44s/条 剩余约25min
+  [450/870] 25.6min 均3.42s/条 剩余约24min
+  [475/870] 26.9min 均3.40s/条 剩余约22min
+  [500/870] 28.2min 均3.38s/条 剩余约21min
+  [525/870] 29.8min 均3.41s/条 剩余约20min
+  [550/870] 31.4min 均3.42s/条 剩余约18min
+  [575/870] 32.9min 均3.43s/条 剩余约17min
+  [600/870] 34.6min 均3.46s/条 剩余约16min
+  [625/870] 36.0min 均3.46s/条 剩余约14min
+  [650/870] 37.2min 均3.43s/条 剩余约13min
+  [675/870] 38.3min 均3.41s/条 剩余约11min
+  [700/870] 39.7min 均3.41s/条 剩余约10min
+  [725/870] 41.1min 均3.40s/条 剩余约8min
+  [750/870] 42.6min 均3.40s/条 剩余约7min
+  [775/870] 43.9min 均3.40s/条 剩余约5min
+  [800/870] 45.1min 均3.38s/条 剩余约4min
+  [825/870] 46.4min 均3.37s/条 剩余约3min
+  [850/870] 47.8min 均3.38s/条 剩余约1min
+
+[完成] g3: 870 条 | 缺图 0 | 无answer标签 3 | 48.8min
+[下一步] python compute_metric_fixed.py --image-folder /root/autodl-tmp/DVGBench/images --answers-file /root/autodl-tmp/results/ans_g3.jsonl

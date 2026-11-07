@@ -1,0 +1,30 @@
+{
+  "setting": "g3",
+  "shots": 2,
+  "seed": 42,
+  "note": "示例由测试集随机抽样，已从评测集排除",
+  "examples": [
+    {
+      "image_id": "Test_Cycling_053.png",
+      "dataset": "era",
+      "question": "A rider who is temporarily behind",
+      "bbox": [
+        302.9,
+        192.3,
+        335.1,
+        251.1
+      ]
+    },
+    {
+      "image_id": "9999936_00000_d_0000048.jpg",
+      "dataset": "visdrone",
+      "question": "The white electric bike that is turning right",
+      "bbox": [
+        1013.3,
+        565.6,
+        1046.0,
+        627.7
+      ]
+    }
+  ]
+}

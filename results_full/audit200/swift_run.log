@@ -1,0 +1,33 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+[WARNING:swift] Please install the package: `pip install "decord" -U`.
+[INFO:swift] attn_impl: flash_attn
+[INFO:swift] model_kwargs: {'device_map': 'auto', 'dtype': torch.bfloat16}
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:04,  1.04s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:02,  1.00it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.01it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.01it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:04<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:04<00:00,  1.18it/s]
+[INFO:swift] Setting image_factor: 28. You can adjust this hyperparameter through the environment variable: `IMAGE_FACTOR`.
+[INFO:swift] Using environment variable `MIN_PIXELS`, Setting min_pixels: 3136.
+[INFO:swift] Using environment variable `MAX_PIXELS`, Setting max_pixels: 12845056.
+[INFO:swift] Setting video_min_pixels: 100352. You can adjust this hyperparameter through the environment variable: `VIDEO_MIN_PIXELS`.
+[INFO:swift] Setting video_max_pixels: 602112. You can adjust this hyperparameter through the environment variable: `VIDEO_MAX_PIXELS`.
+[INFO:swift] Setting video_total_pixels: 90316800. You can adjust this hyperparameter through the environment variable: `VIDEO_TOTAL_PIXELS`.
+[INFO:swift] Setting max_ratio: 200. You can adjust this hyperparameter through the environment variable: `MAX_RATIO`.
+[INFO:swift] Setting frame_factor: 2. You can adjust this hyperparameter through the environment variable: `FRAME_FACTOR`.
+[INFO:swift] Setting fps: 2.0. You can adjust this hyperparameter through the environment variable: `FPS`.
+[INFO:swift] Setting fps_min_frames: 4. You can adjust this hyperparameter through the environment variable: `FPS_MIN_FRAMES`.
+[INFO:swift] Setting fps_max_frames: 768. You can adjust this hyperparameter through the environment variable: `FPS_MAX_FRAMES`.
+[INFO:swift] default_system: 'You are a helpful assistant.'
+[INFO:swift] max_length: 128000
+[INFO:swift] response_prefix: ''
+[INFO:swift] agent_template: hermes
+[INFO:swift] norm_bbox: none
+[INFO:swift] Setting ROOT_IMAGE_DIR: None. You can adjust this hyperparameter through the environment variable: `ROOT_IMAGE_DIR`.
+[INFO:swift] Setting QWENVL_BBOX_FORMAT: legacy. You can adjust this hyperparameter through the environment variable: `QWENVL_BBOX_FORMAT`.
+[INFO:swift] Successfully registered `/root/autodl-tmp/swift-audit-env/lib/python3.12/site-packages/swift/llm/dataset/data/dataset_info.json`.
+[25/200] 1.7 min
+[50/200] 3.1 min
+[75/200] 4.5 min
+[100/200] 6.0 min
+[125/200] 7.3 min
+[150/200] 8.7 min
+[175/200] 10.1 min
+[200/200] 11.6 min
+completed 200 rows in 11.6 min
